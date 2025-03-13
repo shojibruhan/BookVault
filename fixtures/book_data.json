@@ -1,0 +1,240 @@
+[
+    {
+        "model": "users.Author",
+        "pk": 1,
+        "fields": {
+            "name": "J.K Rowling",
+            "biography": "British author, best known for the Harry Potter series."
+        }
+    },
+    {
+        "model": "users.Author",
+        "pk": 2,
+        "fields": {
+            "name": "J.R.R. Tolkien",
+            "biography": "English writer, poet, and professor, author of The Hobbit and The Lord of the Rings."
+        }
+    },
+    {
+        "model": "users.Author",
+        "pk": 3,
+        "fields": {
+            "name": "George Orwell",
+            "biography": "English novelist, essayist, and critic, famous for 1984 and Animal Farm."
+        }
+    },
+    {
+        "model": "users.Author",
+        "pk": 4,
+        "fields": {
+            "name": "Harper Lee",
+            "biography": "American novelist, best known for To Kill a Mockingbird."
+        }
+    },
+    {
+        "model": "users.Author",
+        "pk": 5,
+        "fields": {
+            "name": "Bram Stoker",
+            "biography": "Irish author, best known for Dracula."
+        }
+    },
+    {
+        "model": "users.Author",
+        "pk": 6,
+        "fields": {
+            "name": "Stephen King",
+            "biography": "American author of horror, supernatural fiction, and suspense."
+        }
+    },
+    {
+        "model": "users.Author",
+        "pk": 7,
+        "fields": {
+            "name": "Jane Austen",
+            "biography": "English novelist known for Pride and Prejudice."
+        }
+    },
+    {
+        "model": "users.Author",
+        "pk": 8,
+        "fields": {
+            "name": "Paulo Coelho",
+            "biography": "Brazilian novelist, best known for The Alchemist."
+        }
+    },
+    {
+        "model": "users.Author",
+        "pk": 9,
+        "fields": {
+            "name": "Dan Brown",
+            "biography": "American author known for The Da Vinci Code."
+        }
+    },
+    {
+        "model": "users.Author",
+        "pk": 10,
+        "fields": {
+            "name": "Mary Shelley",
+            "biography": "English novelist, known for Frankenstein."
+        }
+    },
+    {
+        "model": "users.Author",
+        "pk": 11,
+        "fields": {
+            "name": "J.D. Salinger",
+            "biography": "American writer, famous for The Catcher in the Rye."
+        }
+    },
+    {
+        "model": "users.Author",
+        "pk": 12,
+        "fields": {
+            "name": "Cormac McCarthy",
+            "biography": "American novelist known for The Road."
+        }
+    },
+    {
+        "model": "users.Author",
+        "pk": 13,
+        "fields": {
+            "name": "Herman Melville",
+            "biography": "American novelist, best known for Moby-Dick."
+        }
+    },
+    {
+        "model": "users.Author",
+        "pk": 14,
+        "fields": {
+            "name": "Rhonda Byrne",
+            "biography": "Australian author, known for The Secret."
+        }
+    },
+    {
+        "model": "users.Author",
+        "pk": 15,
+        "fields": {
+            "name": "Arthur Conan Doyle",
+            "biography": "British writer, known for Sherlock Holmes."
+        }
+    },
+    {
+        "model": "users.Author",
+        "pk": 16,
+        "fields": {
+            "name": "Stephen R. Covey",
+            "biography": "American educator, best known for The 7 Habits of Highly Effective People."
+        }
+    },
+    {
+        "model": "users.Author",
+        "pk": 17,
+        "fields": {
+            "name": "F. Scott Fitzgerald",
+            "biography": "American novelist, best known for The Great Gatsby."
+        }
+    },
+    {
+        "model": "users.Author",
+        "pk": 18,
+        "fields": {
+            "name": "Stieg Larsson",
+            "biography": "Swedish journalist, known for The Girl with the Dragon Tattoo."
+        }
+    },
+    {
+        "model": "users.Author",
+        "pk": 19,
+        "fields": {
+            "name": "Aldous Huxley",
+            "biography": "English writer, known for Brave New World."
+        }
+    },
+    {
+        "model": "books.Genre",
+        "pk": 1,
+        "fields": {
+            "genre": "Adventure"
+        }
+    },
+    {
+        "model": "books.Genre",
+        "pk": 2,
+        "fields": {
+            "genre": "Fantasy"
+        }
+    },
+    {
+        "model": "books.Genre",
+        "pk": 3,
+        "fields": {
+            "genre": "Thriller"
+        }
+    },
+    {
+        "model": "books.Genre",
+        "pk": 4,
+        "fields": {
+            "genre": "Classics"
+        }
+    },
+    {
+        "model": "books.Genre",
+        "pk": 5,
+        "fields": {
+            "genre": "Horror"
+        }
+    },
+    {
+        "model": "books.Genre",
+        "pk": 6,
+        "fields": {
+            "genre": "Self_help"
+        }
+    },
+    {
+        "model": "books.Book",
+        "pk": 1,
+        "fields": {
+            "title": "Harry Potter and the Sorcerer's Stone",
+            "author": 1,
+            "isbn": 1234,
+            "genre": [2, 1],
+            "availability_status": true
+        }
+    },
+    {
+        "model": "books.Book",
+        "pk": 2,
+        "fields": {
+            "title": "The Hobbit",
+            "author": 2,
+            "isbn": 2345,
+            "genre": [2, 1],
+            "availability_status": true
+        }
+    },
+    {
+        "model": "books.Book",
+        "pk": 3,
+        "fields": {
+            "title": "1984",
+            "author": 3,
+            "isbn": 3456,
+            "genre": [4, 3],
+            "availability_status": false
+        }
+    },
+    {
+        "model": "books.Book",
+        "pk": 4,
+        "fields": {
+            "title": "To Kill a Mockingbird",
+            "author": 4,
+            "isbn": 4567,
+            "genre": [4],
+            "availability_status": true
+        }
+    }
+]
